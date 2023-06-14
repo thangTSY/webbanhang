@@ -1,0 +1,150 @@
+.containe{
+    display: flex;
+}
+.sider-bar{
+    width: 17%;
+    min-height: 100vh;
+    background-color: rgb(31, 28, 28);
+}
+
+.logo{
+    border-radius: 25px;
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+}
+
+.tsy{
+    display: flex;
+    
+    justify-content: center;
+}
+.ten{
+    color: aqua;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.menu{
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-menu{
+    color: rgb(218, 225, 231);
+    font-size: 18px;
+    display: flex;
+    width: 230px;
+    height: 40px;   
+}
+
+.wr{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.text-menu:hover {
+    border: 1px solid #fffa37;
+    background: #838279;
+}
+
+.boder{
+    margin-top: 20px;
+}
+
+
+
+.wrapper{
+    width: 82%;
+}
+.header{
+    background-color: rgb(252, 252, 252);
+    height: 50px;
+    width: 100%;
+}
+.footer{
+    
+    background-color: rgb(190, 238, 190); 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 500px;
+    
+}
+
+/* Tìm kiếm -------------- Tìm kiếm */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container form {
+    display: flex;
+    width: 30%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .search-container input[type=text] {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .search-container button {
+    border: none;
+    width: 50px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .search-container input[type=text]:focus {
+    outline: none;
+    background-color: #ddd;
+  } 
+
+  .butonn{
+    font-size: 15px;
+    width: 15%;
+    margin-right: 700px;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    border: 1px solid #fff;
+    color: #26250c;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    display: flex;
+    justify-content: center;
+  }
+  .h1{
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  .butonn:hover{
+    border: 1px solid #fffa37;
+}
+.seach:hover{
+  border: 1px solid #fffa37;
+  background-color: #fffa37;
+}
+
+.search-container{
+    height: 50;
+}
+
